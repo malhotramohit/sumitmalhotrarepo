@@ -3959,6 +3959,10 @@ h3 {
   margin-top: 50px;
 } 
 
+.single_video iframe{
+  border-radius: 15px;
+} 
+
 @media (max-width: 767px) {
   /* line 12, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_video.scss */
   .youtube_video_area .single_video {
