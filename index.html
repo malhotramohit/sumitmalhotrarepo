@@ -27,6 +27,29 @@
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+    <style>
+       
+        
+        /* Fading animation */
+        .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s;
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+
+        </style>
 </head>
 
 <body>
@@ -80,7 +103,7 @@
     <!-- header-end -->
 
     <!-- slider_area_start -->
-    <div class="slider_area">
+    <div class="slider_area fade">
         <div class="single_slider  d-flex align-items-center slider_bg_1 overlay2">
             <div class="container">
                 <div class="row">
@@ -92,7 +115,54 @@
             </div>
         </div>
     </div>
+    <div class="slider_area fade">
+        <div class="single_slider  d-flex align-items-center slider_bg_2 overlay2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="slider_text text-center ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider_area fade">
+        <div class="single_slider  d-flex align-items-center slider_bg_3 overlay2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="slider_text text-center ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- slider_area_end -->
+
+    
+
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("slider_area");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+    
+      slides[slideIndex-1].style.display = "block";  
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
+    }
+    </script>
+    
 
     <!-- music_area  -->
     <div class="music_area">
