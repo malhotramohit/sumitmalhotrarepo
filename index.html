@@ -29,27 +29,34 @@
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 
     <style>
-       
-        
         /* Fading animation */
         .fade {
-          -webkit-animation-name: fade;
-          -webkit-animation-duration: 1.5s;
-          animation-name: fade;
-          animation-duration: 1.5s;
-        }
-        
-        @-webkit-keyframes fade {
-          from {opacity: .4} 
-          to {opacity: 1}
-        }
-        
-        @keyframes fade {
-          from {opacity: .4} 
-          to {opacity: 1}
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
         }
 
-        </style>
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -66,7 +73,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
-                                   
+
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-7">
@@ -84,9 +91,12 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="social_icon text-right">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/SUMITMALHOTRAOFFICIAL/"> <i class="fa fa-facebook"></i> </a></li>
-                                        <li><a href="https://twitter.com/sumitbaba8"> <i class="fa fa-twitter"></i> </a></li>
-                                        <li><a href="https://www.instagram.com/sumitmalhotra.13/"> <i class="fa fa-instagram"></i> </a></li>
+                                        <li><a href="https://www.facebook.com/SUMITMALHOTRAOFFICIAL/"> <i
+                                                    class="fa fa-facebook"></i> </a></li>
+                                        <li><a href="https://twitter.com/sumitbaba8"> <i class="fa fa-twitter"></i> </a>
+                                        </li>
+                                        <li><a href="https://www.instagram.com/sumitmalhotra.13/"> <i
+                                                    class="fa fa-instagram"></i> </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -142,27 +152,27 @@
     </div>
     <!-- slider_area_end -->
 
-    
 
-    
+
+
     <script>
-    var slideIndex = 0;
-    showSlides();
-    
-    function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("slider_area");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}    
-    
-      slides[slideIndex-1].style.display = "block";  
-      setTimeout(showSlides, 3000); // Change image every 2 seconds
-    }
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("slider_area");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
     </script>
-    
+
 
     <!-- music_area  -->
     <div class="music_area">
@@ -170,27 +180,28 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-xl-10">
                     <div class="row align-items-center">
-                                <div class="col-xl-9 col-md-9">
-                                    <div class="music_field">
-                                            <div class="thumb">
-                                                    <img src="img/music_man/2.png" alt="">
-                                                </div>
-                                                <div class="audio_name">
-                                                    <div class="name">
-                                                        <h4>Yaar Da Viyah</h4>
-                                                        <p>7 May, 2019</p>
-                                                    </div>
-                                                        <audio preload="auto" controls > 
-                                                                <source  src="https://github.com/mmalhotra2000/sumitmalhotrarepo/blob/master/songs/yadaan.mp3">
-                                                            </audio>
-                                                </div>
-                                    </div>
+                        <div class="col-xl-9 col-md-9">
+                            <div class="music_field">
+                                <div class="thumb">
+                                    <img src="img/music_man/2.png" alt="">
                                 </div>
-                                <div class="col-xl-3 col-md-3">
-                                    <div class="music_btn">
-                                            <a href="#" class="boxed-btn">Listen Online</a>
+                                <div class="audio_name">
+                                    <div class="name">
+                                        <h4>Yaar Da Viyah</h4>
+                                        <p>7 May, 2019</p>
                                     </div>
+                                    <audio preload="auto" controls>
+                                        <source
+                                            src="https://github.com/mmalhotra2000/sumitmalhotrarepo/blob/master/songs/yadaan.mp3">
+                                    </audio>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-3">
+                            <div class="music_btn">
+                                <a href="#" class="boxed-btn">Listen Online</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -211,9 +222,17 @@
                 <div class="col-xl-7 col-md-6">
                     <div class="about_info">
                         <h3>Sumit Malhotra</h3>
-                        <p>Singer. Performer. Entertainer. Just some of the words that describe Sumit Malhotra, a seasoned singer based in Delhi, India. With multiple live shows in India and abroad to his credit, Sumit Malhotra is a highly sought after artiste. He is known for his natural ability to connect with the audience with his unparalleled energy, performance and gifted voice.
-                            Thanks to his deep inclination towards music clubbed with inherent talent, Sumit Malhotra started live performing at an early age and was privileged enough to sing at prestigious platforms. He has been a part of several Delhi Haat shows. While mainly known and loved for his singing performances, Sumit Malhotra's talents are not restricted to just singing. He plays the Guitar,Harmonium. 
-                            Wherever he goes, he thrills audiences with his inimitable style. He is available for live shows/collaborations. Reach out to him on +919999097256</p>
+                        <p>Singer. Performer. Entertainer. Just some of the words that describe Sumit Malhotra, a
+                            seasoned singer based in Delhi, India. With multiple live shows in India and abroad to his
+                            credit, Sumit Malhotra is a highly sought after artiste. He is known for his natural ability
+                            to connect with the audience with his unparalleled energy, performance and gifted voice.
+                            Thanks to his deep inclination towards music clubbed with inherent talent, Sumit Malhotra
+                            started live performing at an early age and was privileged enough to sing at prestigious
+                            platforms. He has been a part of several Delhi Haat shows. While mainly known and loved for
+                            his singing performances, Sumit Malhotra's talents are not restricted to just singing. He
+                            plays the Guitar,Harmonium.
+                            Wherever he goes, he thrills audiences with his inimitable style. He is available for live
+                            shows/collaborations. Reach out to him on +919999097256</p>
                         <div class="signature">
                             <img src="img/about/signature.png" alt="">
                         </div>
@@ -224,7 +243,7 @@
     </div>
     <!--/ about_area  -->
     <!-- youtube_video_area  -->
-    
+
     <div class="youtube_video_area">
         <div class="container-fluid p-0">
             <div class="row">
@@ -235,43 +254,64 @@
                 </div>
             </div>
             <div class="row ">
-               
+
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ky9f_iyMGuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ky9f_iyMGuA"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
-                
+
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/dHZqvHzwNZo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/dHZqvHzwNZo"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe> </div>
                 </div>
 
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/pfr6pSp7OSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/pfr6pSp7OSc"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe> </div>
                 </div>
 
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/5qY4rb3bLcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/5qY4rb3bLcs"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe> </div>
                 </div>
 
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/N3KfHOBBnr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/N3KfHOBBnr4"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe> </div>
                 </div>
 
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/qqMAOSqQHpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/qqMAOSqQHpQ"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe> </div>
                 </div>
 
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/_quNwqQ8XyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/_quNwqQ8XyU"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe> </div>
                 </div>
-            
+
 
             </div>
         </div>
@@ -279,9 +319,9 @@
     <!-- / youtube_video_area  -->
 
 
-     <!-- youtube_video_area  cover songs-->
+    <!-- youtube_video_area  cover songs-->
 
-     <div class="youtube_video_area">
+    <div class="youtube_video_area">
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-xl-12">
@@ -291,30 +331,42 @@
                 </div>
             </div>
             <div class="row ">
-               
+
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/P6-wB0t5rY0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/P6-wB0t5rY0"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
-                
+
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/MEDP24LUkaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/MEDP24LUkaM"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe> </div>
                 </div>
 
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/xN_nu0nCYSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/xN_nu0nCYSM"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe> </div>
                 </div>
 
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/yKswCLS61PE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/yKswCLS61PE"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe> </div>
                 </div>
 
-               
-    
+
+
             </div>
         </div>
     </div>
@@ -323,37 +375,38 @@
     <!-- music_area  -->
     <div class="music_area music_gallery">
         <div class="container">
-                <div class="row">
-                        <div class="col-xl-12">
-                            <div class="section_title text-center mb-65">
-                                <h3>Latest Tracks</h3>
-                            </div>
-                        </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-65">
+                        <h3>Latest Tracks</h3>
                     </div>
+                </div>
+            </div>
             <div class="row align-items-center justify-content-center mb-20">
                 <div class="col-xl-10">
                     <div class="row align-items-center">
-                                <div class="col-xl-9 col-md-9">
-                                    <div class="music_field">
-                                            <div class="thumb">
-                                                    <img src="img/music_man/2.png" alt="">
-                                                </div>
-                                                <div class="audio_name">
-                                                    <div class="name">
-                                                        <h4>Yadaan</h4>
-                                                        <p>24 December, 2017</p>
-                                                    </div>
-                                                        <audio preload="auto" controls>
-                                                                <source src="#">
-                                                            </audio>
-                                                </div>
-                                    </div>
+                        <div class="col-xl-9 col-md-9">
+                            <div class="music_field">
+                                <div class="thumb">
+                                    <img src="img/music_man/2.png" alt="">
                                 </div>
-                                <div class="col-xl-3 col-md-3">
-                                    <div class="music_btn">
-                                            <a href="https://www.jiosaavn.com/song/yadaan/KF0Sax16ekQ" class="boxed-btn">Listen Online</a>
+                                <div class="audio_name">
+                                    <div class="name">
+                                        <h4>Yadaan</h4>
+                                        <p>24 December, 2017</p>
                                     </div>
+                                    <audio preload="auto" controls>
+                                        <source src="#">
+                                    </audio>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-3">
+                            <div class="music_btn">
+                                <a href="https://www.jiosaavn.com/song/yadaan/KF0Sax16ekQ" class="boxed-btn">Listen
+                                    Online</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -362,7 +415,7 @@
     </div>
     <!-- music_area end  -->
 
-     <!-- about_area production -->
+    <!-- about_area production -->
     <div class="about_area">
         <div class="container">
             <div class="row align-items-center">
@@ -374,7 +427,12 @@
                 <div class="col-xl-7 col-md-6">
                     <div class="about_info">
                         <h3>Malhotra Production</h3>
-                        <p>Malhotra Productions Studios is Delhi’s premiere audio recording studio and post productions facility. Our aim is to create high quality digital recordings in quality with all styles of music and at any level of development.  If you are a singer or songwriter planning to develop your ideas, we can record, mix and master right here. We have all the latest gadgets and equipments to make your recordings sound truly professional. We also conduct voice-over recordings .</p>
+                        <p>Malhotra Productions Studios is Delhi’s premiere audio recording studio and post productions
+                            facility. Our aim is to create high quality digital recordings in quality with all styles of
+                            music and at any level of development. If you are a singer or songwriter planning to develop
+                            your ideas, we can record, mix and master right here. We have all the latest gadgets and
+                            equipments to make your recordings sound truly professional. We also conduct voice-over
+                            recordings .</p>
                         <div class="signature">
                             <img src="img/about/signature.png" alt="">
                         </div>
@@ -385,9 +443,9 @@
     </div>
     <!--/ about_area production -->
 
-       <!-- youtube_video_area  studio songs-->
+    <!-- youtube_video_area  studio songs-->
 
-       <div class="youtube_video_area">
+    <div class="youtube_video_area">
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-xl-12">
@@ -397,15 +455,21 @@
                 </div>
             </div>
             <div class="row ">
-               
+
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/xk8uPyzFyDs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/xk8uPyzFyDs"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/AFVbchVZxLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/AFVbchVZxLs"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -414,9 +478,9 @@
     <!-- / youtube_video_area studio songs -->
 
 
-      <!-- youtube_video_area  live songs-->
+    <!-- youtube_video_area  live songs-->
 
-      <div class="youtube_video_area">
+    <div class="youtube_video_area">
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-xl-12">
@@ -426,20 +490,29 @@
                 </div>
             </div>
             <div class="row ">
-               
+
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/CWWdzvavnD8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/CWWdzvavnD8"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/yRUyohjtc6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/yRUyohjtc6U"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/GguBbH_uHE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/GguBbH_uHE4"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -448,9 +521,9 @@
     <!-- / youtube_video_area live songs -->
 
 
-     <!-- youtube_video_area  media -->
+    <!-- youtube_video_area  media -->
 
-     <div class="youtube_video_area">
+    <div class="youtube_video_area">
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-xl-12">
@@ -460,20 +533,29 @@
                 </div>
             </div>
             <div class="row ">
-               
+
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/kKM2qOnujEs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/kKM2qOnujEs"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/nW9vlP_GPWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/nW9vlP_GPWg"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="single_video">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/BDPDc_NIyv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/BDPDc_NIyv4"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -495,77 +577,77 @@
             <div class="row grid">
                 <div class="col-xl-5 col-lg-5 grid-item cat1 col-md-6">
                     <div class="single-gallery mb-30">
-                            <div class="portfolio-img">
-                                    <img src="img/gallery/ssstudio.JPG" alt="">
-                            </div>
-                            <div class="gallery_hover">
-                                <a  class="popup-image"  href="img/gallery/ssstudio.JPG" class="hover_inner">
-                                    <i class="ti-plus"></i>
-                                </a>
-                            </div>
-                    </div>
-                </div>
-                    <div class="col-xl-5 col-lg-5 grid-item cat1 col-md-6">
-                        <div class="single-gallery mb-30">
-                                <div class="portfolio-img">
-                                        <img src="img/gallery/1.JPG" alt="">
-                                </div>
-                                <div class="gallery_hover">
-                                    <a  class="popup-image"  href="img/gallery/1.JPG" class="hover_inner">
-                                        <i class="ti-plus"></i>
-                                    </a>
-                                </div>
+                        <div class="portfolio-img">
+                            <img src="img/gallery/ssstudio.JPG" alt="">
                         </div>
-                    </div>
-                    <div class="col-xl-7 col-lg-7 grid-item cat3 cat4 col-md-6">
-                        <div class="single-gallery mb-30">
-                                <div class="portfolio-img">
-                                        <img src="img/gallery/2.JPG" alt="">
-                                </div>
-                                <div class="gallery_hover">
-                                        <a class="popup-image" href="img/gallery/2.JPG" class="hover_inner">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 grid-item cat4 col-md-6">
-                        <div class="single-gallery mb-30">
-                                <div class="portfolio-img">
-                                        <img src="img/gallery/3.jpg" alt="">
-                                </div>
-                                <div class="gallery_hover">
-                                        <a class="popup-image" href="img/gallery/3.jpg" class="hover_inner">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 grid-item cat2 col-md-6">
-                        <div class="single-gallery mb-30">
-                            <div class="portfolio-img">
-                                    <img src="img/gallery/4.JPG" alt="">
-                            </div>
-                            <div class="gallery_hover">
-                                    <a class="popup-image" href="img/gallery/4.JPG" class="hover_inner">
-                                        <i class="ti-plus"></i>
-                                    </a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 grid-item cat2 col-md-6">
-                        <div class="single-gallery mb-30">
-                            <div class="portfolio-img">
-                                    <img src="img/gallery/5.JPG" alt="">
-                            </div>
-                            <div class="gallery_hover">
-                                    <a class="popup-image" href="img/gallery/5.JPG" class="hover_inner">
-                                        <i class="ti-plus"></i>
-                                    </a>
-                            </div>
+                        <div class="gallery_hover">
+                            <a class="popup-image" href="img/gallery/ssstudio.JPG" class="hover_inner">
+                                <i class="ti-plus"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
+                <div class="col-xl-5 col-lg-5 grid-item cat1 col-md-6">
+                    <div class="single-gallery mb-30">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/1.JPG" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a class="popup-image" href="img/gallery/1.JPG" class="hover_inner">
+                                <i class="ti-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 grid-item cat3 cat4 col-md-6">
+                    <div class="single-gallery mb-30">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/2.JPG" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a class="popup-image" href="img/gallery/2.JPG" class="hover_inner">
+                                <i class="ti-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 grid-item cat4 col-md-6">
+                    <div class="single-gallery mb-30">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/3.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a class="popup-image" href="img/gallery/3.jpg" class="hover_inner">
+                                <i class="ti-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 grid-item cat2 col-md-6">
+                    <div class="single-gallery mb-30">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/4.JPG" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a class="popup-image" href="img/gallery/4.JPG" class="hover_inner">
+                                <i class="ti-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 grid-item cat2 col-md-6">
+                    <div class="single-gallery mb-30">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/5.JPG" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a class="popup-image" href="img/gallery/5.JPG" class="hover_inner">
+                                <i class="ti-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!--/ gallery -->
@@ -591,13 +673,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-md-6">
-                           
+
                     </div>
                     <div class="col-xl-5 col-md-5 offset-xl-1">
                         <div class="footer_widget">
-                                <h3 class="footer_title">
-                                        Contact Me
-                                </h3>
+                            <h3 class="footer_title">
+                                Contact Me
+                            </h3>
                             <ul>
                                 <li><a href="#">sumitmal12345@gmail.com
                                     </a></li>
@@ -610,7 +692,7 @@
                                         <a href="https://www.facebook.com/SUMITMALHOTRAOFFICIAL/">
                                             <i class=" fa fa-facebook "></i>
                                         </a>
-                                    </li>                                   
+                                    </li>
                                     <li>
                                         <a href="https://twitter.com/sumitbaba8">
                                             <i class="fa fa-twitter"></i>
@@ -626,6 +708,24 @@
                                             <i class="fa fa-instagram"></i>
                                         </a>
                                     </li>
+                                    <li>
+                                        <a href="https://vm.tiktok.com/sL8cmA/">
+                                            <i class="fab fa-tiktok"></i>
+                                        </a>
+                                    </li>
+                                    <script type="text/javascript"
+                                        src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+                                    <script type="text/javascript">
+                                        var faTikTok = {
+                                            prefix: 'fab',
+                                            iconName: 'tiktok',
+                                            icon: [24, 24, [], 'e001', 'M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z']
+                                        }
+
+                                        FontAwesome.library.add(
+                                            faTikTok
+                                        )
+                                    </script>
                                 </ul>
                             </div>
 
@@ -641,8 +741,9 @@
                     <div class="col-xl-7 col-md-6">
                         <p class="copy_right">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved.
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
                     <div class="col-xl-5 col-md-6">
@@ -664,10 +765,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- link that opens popup -->
 
     <!-- JS here -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-            crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -696,14 +796,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
-    
-		<script>
-                $(function() {
-                    $('audio').audioPlayer({
 
-                    });
-                });
-            </script>
+    <script>
+        $(function () {
+            $('audio').audioPlayer({
+
+            });
+        });
+    </script>
 </body>
 
 </html>
