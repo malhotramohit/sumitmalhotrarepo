@@ -1261,20 +1261,25 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
 .slider_bg_1 {
+  background-image: url(../img/banner/mafia.jpg);
+}
+
+/* line 1, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
+.slider_bg_2 {
   background-image: url(../img/banner/bann1.jpg);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
-.slider_bg_2 {
+.slider_bg_3 {
   background-image: url(../img/banner/bann2.png);
 }
 /* line 4, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
-.slider_bg_3 {
+.slider_bg_4 {
   background-image: url(../img/banner/bann3.png);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
-.slider_bg_4 {
+.slider_bg_5 {
   background-image: url(../img/banner/bann4.jpg);
 }
 /* line 8, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
